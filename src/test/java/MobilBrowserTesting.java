@@ -22,7 +22,7 @@ public class MobilBrowserTesting {
         dCap.setCapability(MobileCapabilityType.DEVICE_NAME,"HUAWEI VNS_L21");
         dCap.setCapability(MobileCapabilityType.BROWSER_NAME,"chrome");
         dCap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,"60000");
-        dCap.setCapability("chromeDriverExecutable","C:\\Users\\semih aldemir\\IdeaProjects\\mobilBrowserTesting\\src\\driver\\chromedriver.exe");
+        dCap.setCapability("chromeDriverExecutable","F:\\TESTER\\14_PROJECTS\\IdeaProjects\\appium\\mobilBrowserTesting\\src\\driver\\chromedriver.exe");
 
         AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL("http:localhost:4723/wd/hub"),dCap);
 
